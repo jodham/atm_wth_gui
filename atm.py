@@ -31,6 +31,13 @@ class transcWin():
         self.withdraw_ent.place(x=280, y=120)
         self.btn2 = Button(self.pane, text="Withdraw", font="times 12 bold")
         self.btn2.place(x=280, y=150)
+        self.label5 = Label(self.pane, text="enter phone", font="times 15 roman")
+        self.label5.place(x=10, y=200)
+        self.phone_ent = Entry(self.pane)
+        self.phone_ent.place(x=10, y=230)
+        self.btn3 = Button(self.pane, text="send money", font="times 12 bold")
+        self.btn3.place(x=10, y=260)
+
 
     def run(self):
         self.pane.mainloop()
